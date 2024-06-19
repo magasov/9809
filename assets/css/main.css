@@ -387,6 +387,22 @@ header {
     opacity: .6;
     text-align: center;
 }
+
+.gosti_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gosti_main-block {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+}
+
+
+
+
+
 /* Media Queries for Responsive Design */
 
 /* Mobile Devices */
