@@ -197,6 +197,11 @@ header {
     color: #fff;
 }
 
+.footer_nav {
+    display: flex;
+    column-gap: 10px;
+}
+
 .home1 {
     width: 325px;
     height: 440px;
