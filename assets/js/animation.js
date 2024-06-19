@@ -10,9 +10,13 @@ ScrollReveal().reveal('.home1, .just1, .just4, .sect4 h2', { delay: 500, origin:
 ScrollReveal().reveal('.home2, .just2, .just3', { delay: 500, origin: 'right' });
 ScrollReveal().reveal('.home3, .two', { delay: 500, origin: 'bottom' });
 
-function hamburgerMenu() {
-    let menu = document.querySelector("#navbar__header1")
-    menu.style.display = "block"
+function toggleVisibility() {
+    let svgElement = document.getElementById('navbar__header1');
+    if (svgElement.style.display === 'none') {
+        svgElement.style.display = 'block';
+    } else {
+        svgElement.style.display = 'none';
+    }
 }
 
 
