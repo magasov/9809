@@ -9,3 +9,8 @@ ScrollReveal().reveal('.homeSetiStolovyh__div h2, .homeSetiStolovyh__div p', { d
 ScrollReveal().reveal('.home1, .just1, .just4, .sect4 h2', { delay: 500, origin: 'left' });
 ScrollReveal().reveal('.home2, .just2, .just3', { delay: 500, origin: 'right' });
 ScrollReveal().reveal('.home3, .two', { delay: 500, origin: 'bottom' });
+
+function hamburgerMenu(){
+    let menu = document.querySelector("#navbar__header1")
+    menu.style.display = "block"
+}
