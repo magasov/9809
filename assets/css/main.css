@@ -199,7 +199,7 @@ header {
 
 .footer_nav {
     display: flex;
-    column-gap: 10px;
+    column-gap: 20px;
 }
 
 .home1 {
@@ -734,6 +734,9 @@ header {
         padding: 10px;
     }
 
+    .footer_nav {
+        column-gap: 10px;
+    }
     .end {
         width: 100%;
     }
