@@ -654,6 +654,9 @@ header {
         padding: 10px;
         height: 1670px;
     }
+    .sample-slider{
+        width:100%;
+    }
 
     .gosti {
         padding: 0 22px;
