@@ -660,6 +660,13 @@ header {
         position: absolute;
         top: 30px;
     }
+    .blockk {
+        width: 100%;
+    }
+    .gosti_main {
+        flex-direction: column;
+        justify-content: center;
+    }
 
     .sect3_one {
         flex-direction: column;
