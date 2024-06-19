@@ -209,16 +209,19 @@
     </section>
 
     <script>
-        const swiper = new Swiper('.sample-slider', {
-            loop: true,                         //loop
-            pagination: {                       //pagination(dots)
-                el: '.swiper-pagination',
-            },
-            navigation: {                       //navigation(arrows)
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        })
+      const swiper = new Swiper('.sample-slider', {
+    loop: true,
+    slidesPerView: 3,
+    centeredSlides: true,
+    effect: "coverflow",    //add(applying the coverflow effect)
+    pagination: {
+        el: '.swiper-pagination',
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+})
     </script>
     <script src="./assets/js/animation.js"></script>
 </body>
