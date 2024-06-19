@@ -730,6 +730,9 @@ header {
     .jusctify4_foot {
         font-size: 18px;
     }
+    .footer {
+        padding: 10px;
+    }
 
     .end {
         width: 100%;
