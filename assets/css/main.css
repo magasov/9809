@@ -489,9 +489,7 @@ header {
         padding: 10px;
         display: none;
     }
-    #navbar__header1 {
-        display: block;
-    }
+
     .header{
         position: relative;
         display: block;
