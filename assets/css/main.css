@@ -370,6 +370,20 @@ header {
     width: 575px;
 }
 
+.gosti {
+    width: 100%;
+    height: 100vh;
+}
+
+.gosti h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.gosti p {
+    width: 100%;
+    text-align: center;
+}
 /* Media Queries for Responsive Design */
 
 /* Mobile Devices */
