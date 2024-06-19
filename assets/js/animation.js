@@ -29,3 +29,7 @@ function hamburgerMenu() {
 //     </svg >
 
 // ВОТ ФУНКЦИЯ
+// function hamburgerMenu() {
+//     let menu = document.querySelector("#navbar__header1")
+//     menu.style.display = "block"
+// }
